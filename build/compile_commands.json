@@ -1,19 +1,19 @@
 [
 {
   "directory": "C:/Users/Edgar/OneDrive/Documentos/CodeFest/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\main.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -isystem \"C:/Program Files/OpenSSL-Win64/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\main.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\main.cpp",
   "file": "C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\main.cpp",
   "output": "CMakeFiles\\CodeFest.dir\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/Edgar/OneDrive/Documentos/CodeFest/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\encrypt.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\encrypt.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -isystem \"C:/Program Files/OpenSSL-Win64/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\encrypt.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\encrypt.cpp",
   "file": "C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\encrypt.cpp",
   "output": "CMakeFiles\\CodeFest.dir\\encrypt.cpp.obj"
 },
 {
   "directory": "C:/Users/Edgar/OneDrive/Documentos/CodeFest/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\decrypt.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\decrypt.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DENCRYPTED_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/encrypted\\\" -DIMAGES_DIR=\\\"C:/Users/Edgar/OneDrive/Documentos/CodeFest/imagenes\\\" -I\"C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include\" -isystem \"C:/Program Files/OpenSSL-Win64/include\" -g -std=gnu++11 -o CMakeFiles\\CodeFest.dir\\decrypt.cpp.obj -c C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\decrypt.cpp",
   "file": "C:\\Users\\Edgar\\OneDrive\\Documentos\\CodeFest\\decrypt.cpp",
   "output": "CMakeFiles\\CodeFest.dir\\decrypt.cpp.obj"
 }

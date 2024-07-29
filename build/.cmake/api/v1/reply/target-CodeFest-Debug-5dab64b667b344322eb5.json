@@ -30,31 +30,37 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 14,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -84,6 +90,11 @@
 				{
 					"backtrace" : 5,
 					"path" : "C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
 				}
 			],
 			"language" : "CXX",
@@ -119,6 +130,16 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "\"C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\lib\\CORE_RL_Magick++_.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\VC\\x64\\MTd\\libcrypto.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\VC\\x64\\MTd\\libssl.lib\"",
 				"role" : "libraries"
 			},
 			{

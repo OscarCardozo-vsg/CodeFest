@@ -12,4 +12,6 @@ std::vector<int> txtToVector(const std::string& path);
 
 void vectorToImage(const std::vector<int>& data, const std::string& outPath, const std::string& name);
 
+std::vector<unsigned char> decrypt(const std::vector<unsigned char>& ciphertext, const unsigned char* iv);
+
 #endif
