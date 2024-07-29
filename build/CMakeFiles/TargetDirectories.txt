@@ -1,0 +1,3 @@
+C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/CodeFest.dir
+C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/edit_cache.dir
+C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/rebuild_cache.dir
