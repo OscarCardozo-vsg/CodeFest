@@ -66,10 +66,8 @@ std::vector<unsigned char> txtToVector(const string& path, unsigned char* key, u
     return data;
 }
 
-void vectorToImage(const std::vector<int>& data, int width, int height, int channels, const string& outPath, const string& name) {
-    string finalPath;
-
-    if (data.size() < 3 + width * height * channels) {
+void vectorToImage(const std::vector<unsigned char>& data, int width, int height, int channels, const std::string& outPath, const std::string& name) {
+    if (data.size() < width * height * channels) {
         cerr << "El archivo fue alterado o corrupto. (Tamaño de la imagen no coinciden)" << endl;
         return;
     }
@@ -83,8 +81,8 @@ void vectorToImage(const std::vector<int>& data, int width, int height, int chan
             ColorRGB color;
             if (channels == 3) {
                 color.red(*it++ / 255.0);
-                color.green(*it ++ / 255.0);
-                color.blue(*it ++ / 255.0);
+                color.green(*it++ / 255.0);
+                color.blue(*it++ / 255.0);
             } else if (channels == 1) {
                 double gray = *it++ / 255.0;
                 color.red(gray);
@@ -95,9 +93,10 @@ void vectorToImage(const std::vector<int>& data, int width, int height, int chan
         }
     }
 
+    std::string finalPath;
     if(!outPath.empty()){
         finalPath = outPath + "/" + name + ".png";
-    }else{
+    } else {
         finalPath = name + ".png";
     }
     image.write(finalPath);
