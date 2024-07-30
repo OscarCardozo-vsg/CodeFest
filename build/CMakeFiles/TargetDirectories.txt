@@ -1,3 +1,3 @@
-C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/CodeFest.dir
-C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Edgar/OneDrive/Documentos/CodeFest/build/CMakeFiles/ZERO_CHECK.dir
+/home/toto/Documentos/GitHub/CODEFEST-AD-ASTRA/CodeFest/build/CMakeFiles/CodeFest.dir
+/home/toto/Documentos/GitHub/CODEFEST-AD-ASTRA/CodeFest/build/CMakeFiles/edit_cache.dir
+/home/toto/Documentos/GitHub/CODEFEST-AD-ASTRA/CodeFest/build/CMakeFiles/rebuild_cache.dir
